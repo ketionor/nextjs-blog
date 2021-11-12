@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero/Hero";
 
-export default function Home() {
+function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -12,3 +12,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
