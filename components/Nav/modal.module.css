@@ -1,0 +1,43 @@
+.container {
+  /* variables */
+  --overlay-color: black;
+  --font-color: white;
+  --x-button-color: var(--font-color);
+  --x-button-size: 36px;
+
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100vh;
+  width: 0vw;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0); /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlayContent {
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centered text/links */
+}
+
+.overlayContent svg {
+  stroke: var(--x-button-color);
+  width: var(--x-button-size);
+  height: var(--x-button-size);
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.overlayContent a {
+  text-decoration: none;
+  color: var(--font-color);
+}

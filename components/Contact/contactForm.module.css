@@ -1,0 +1,39 @@
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myForm ul {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li label {
+  padding-bottom: 0.25em;
+}
+
+.myForm input,
+textarea {
+  border: 1px solid var(--accent-color);
+  border-radius: 3px;
+  padding: 0.5em;
+  outline: none;
+}
+
+.myForm input:focus,
+textarea:focus {
+  /* background-color: var(--accent-color); */
+  outline: 4px solid var(--accent-color);
+  /* color: white; */
+}
+
+.submit {
+  color: var(--font-color-primary);
+  background-color: var(--background-color-primary);
+}
