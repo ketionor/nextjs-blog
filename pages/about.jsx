@@ -8,13 +8,13 @@ const About = () => {
         <h2>About Josh</h2>
         <div className={styles.blockOne}>
           <p>
-            Hi 👋 I'm Josh. I'm a self taught developer, but it's not quite that
-            simple. I've been interested in code since I was a preteen. I
-            thought I was going to go to college to get a computer science
-            degree. When I turned twenty though, I decided it was time to join
-            the military. I wanted a new challenge. I spent six years in the US
-            Navy's nuclear power program, did some traveling, met my beautiful
-            wife, had my first child. I'd say it worked out!
+            Hi 👋 I&apos;m Josh. I&apos;m a self taught developer, but it&apos;s
+            not quite that simple. I&apos;ve been interested in code since I was
+            a preteen. I thought I was going to go to college to get a computer
+            science degree. When I turned twenty though, I decided it was time
+            to join the military. I wanted a new challenge. I spent six years in
+            the US Navy&apos;s nuclear power program, did some traveling, met my
+            beautiful wife, had my first child. I&apos;d say it worked out!
           </p>
           {/* <StaticImage
             className={headshot}
