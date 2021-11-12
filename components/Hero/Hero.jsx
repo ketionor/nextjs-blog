@@ -1,7 +1,7 @@
 import React from "react";
 import * as styles from "./hero.module.css";
 import Button from "../CTA Button/Button";
-// import Social from "../Social/Social";
+import Social from "../Social/Social";
 
 const Hero = () => {
   return (
@@ -18,7 +18,9 @@ const Hero = () => {
           <Button type="" text="CONTACT" to="/contact" />
           <Button type="" text="SEE MY WORK" to="/projects" />
         </div>
-        <div>{/* <Social /> */}</div>
+        <div>
+          <Social />
+        </div>
       </div>
     </div>
   );

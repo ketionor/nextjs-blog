@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import Link from "next/link";
 import * as styles from "./modal.module.css";
 
 const Modal = ({ links }) => {
@@ -28,7 +28,7 @@ const Modal = ({ links }) => {
           if (to[0] === "/") {
             return (
               <li>
-                <Link to={to} activeClassName={styles.activeLink}>
+                <Link href={to} activeClassName={styles.activeLink}>
                   {name}
                 </Link>
               </li>

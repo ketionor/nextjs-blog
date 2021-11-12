@@ -39,6 +39,10 @@
   margin: 0;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .navMenu {
   display: none;
 }

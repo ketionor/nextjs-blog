@@ -1,0 +1,25 @@
+.container {
+  margin-top: 1rem;
+
+  display: flex;
+}
+
+.container a {
+  margin-right: 0.5rem;
+  color: var(--font-color-primary);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: white;
+
+  margin-right: 0.5rem;
+
+  transition: stroke 0.25s;
+}
+
+.icon:hover {
+  cursor: pointer;
+  stroke: var(--accent-color);
+}

@@ -8,18 +8,18 @@
   margin: 0;
 }
 
-li {
+.myForm ul li {
   list-style-type: none;
   display: flex;
   flex-direction: column;
 }
 
-li label {
+.myForm ul li label {
   padding-bottom: 0.25em;
 }
 
 .myForm input,
-textarea {
+.inputArea {
   border: 1px solid var(--accent-color);
   border-radius: 3px;
   padding: 0.5em;
@@ -27,7 +27,7 @@ textarea {
 }
 
 .myForm input:focus,
-textarea:focus {
+.inputArea:focus {
   /* background-color: var(--accent-color); */
   outline: 4px solid var(--accent-color);
   /* color: white; */

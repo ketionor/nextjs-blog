@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../CTA Button/Button";
+import Link from "next/link";
 import * as styles from "./contactForm.module.css";
 
 const ContactForm = () => {
@@ -12,11 +13,22 @@ const ContactForm = () => {
       <ul>
         <li>
           <label htmlFor="name">Full Name</label>
-          <input type="text" id="name" placeholder="John Snow" required="" />
+          <input
+            type="text"
+            id="name"
+            placeholder="John Snow"
+            required=""
+            className={styles.inputArea}
+          />
         </li>
         <li>
           <label htmlFor="email">Email</label>
-          <input type="text" id="email" placeholder="thewhitewolf@gmail.com" />
+          <input
+            type="text"
+            id="email"
+            placeholder="thewhitewolf@gmail.com"
+            className={styles.inputArea}
+          />
         </li>
         <li>
           <label htmlFor="message">Message</label>
@@ -26,6 +38,7 @@ const ContactForm = () => {
             id="message"
             placeholder="Normally I would use a raven but..."
             required=""
+            className={styles.inputArea}
           ></textarea>
           <input
             type="hidden"
@@ -35,7 +48,7 @@ const ContactForm = () => {
           ></input>
         </li>
       </ul>
-      <Button type="submit" text="Submit" />
+      <Button type="submit" text="Submit" to="/" />
     </form>
   );
 };

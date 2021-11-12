@@ -24,13 +24,15 @@ const Header2 = () => {
       {/* <Modal links={links} /> */}
       <div className={styles.innerContainer}>
         <div className={styles.logoContainer}>
-          <Image
-            className={styles.logo}
-            src="/signature-logo.png"
-            alt="josh sandefer signature logo"
-            width="200"
-            height="100"
-          />
+          <Link href="/" passHref>
+            <Image
+              className={styles.logo}
+              src="/signature-logo.png"
+              alt="josh sandefer signature logo"
+              width="200"
+              height="100"
+            />
+          </Link>
         </div>
         <ul className={styles.navMenu}>
           {links.map(({ name, to }) => {
