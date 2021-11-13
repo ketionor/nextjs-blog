@@ -5,11 +5,9 @@ import Hero from "../components/Hero/Hero";
 
 function Home() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <Hero />
-      </main>
-    </div>
+    <main className={styles.container}>
+      <Hero />
+    </main>
   );
 }
 
