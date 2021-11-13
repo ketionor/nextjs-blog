@@ -16,6 +16,7 @@ const Project = ({ project }) => {
           width="400"
           height="200"
           objectFit="cover"
+          priority={true}
         />
       </div>
       <Link href={`/projects/${project.slug}`} passHref>
