@@ -18,7 +18,7 @@ const Project = ({ project }) => {
           objectFit="cover"
         />
       </div>
-      <Link href={`/projects/${project.frontMatter.slug}`} passHref>
+      <Link href={`/projects/${project.slug}`} passHref>
         <h2 className={styles.title}>This Website</h2>
       </Link>
       <p className={styles.description}>
