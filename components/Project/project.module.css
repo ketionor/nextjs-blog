@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  padding: 2rem;
+  /* height: 400px; */
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.image {
+  border: 4px solid white;
+}
+
+.title {
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+
+  transition: color 0.25s;
+}
+
+.title:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.description {
+}
