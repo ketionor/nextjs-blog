@@ -47,7 +47,7 @@ const Social = () => {
         <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
       </svg> */}
       {/* Hashnode */}
-      <a href="https://blog.joshsandefer.dev">Blog</a>
+      {/* <a href="https://blog.joshsandefer.dev">Blog</a> */}
       <Link href="/about">About</Link>
     </div>
   );

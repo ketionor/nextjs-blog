@@ -14,8 +14,8 @@ const Hero = () => {
         </p>
       </div>
       <div>
-        <Button type="" text="CONTACT" to="/contact" />
-        <Button type="" text="SEE MY WORK" to="/projects" />
+        <Button type="" text="GET IN TOUCH" to="/contact" />
+        <Button type="" text="STUFF I BUILT" to="/projects" />
       </div>
       <div>
         <Social />

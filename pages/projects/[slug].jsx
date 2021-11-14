@@ -10,7 +10,7 @@ const ProjectPage = ({ post }) => {
     <div className={styles.container}>
       <Image
         src={post.feature_image}
-        alt="photo of site on a computer"
+        alt={post.title}
         layout="responsive"
         sizes="(min-width: 768px) 400px"
         width="400"
