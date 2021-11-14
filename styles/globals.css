@@ -36,6 +36,14 @@
   align-items: center;
 }
 
+/* Imgages brought over from ghost */
+.kg-image {
+  object-fit: cover;
+  /* max-height: 600px; */
+  width: 100%;
+  height: auto;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

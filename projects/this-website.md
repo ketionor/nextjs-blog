@@ -5,6 +5,14 @@ excerpt: "an excerpt"
 cover_image: "/my-site-photo-minified.jpg"
 ---
 
-## This is a heading
+## This website is bonkers!
 
-Hello!
+Well, this is a website!
+
+<img src="/my-site-photo-minified.jpg" width="200px">
+
+Meh
+
+```js
+let poop = fart;
+```
